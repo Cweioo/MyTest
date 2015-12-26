@@ -13,6 +13,7 @@
 		C0D0711A1C2E8EBA00D30D20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D071181C2E8EBA00D30D20 /* Main.storyboard */; };
 		C0D0711C1C2E8EBA00D30D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D0711B1C2E8EBA00D30D20 /* Assets.xcassets */; };
 		C0D0711F1C2E8EBA00D30D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D0711D1C2E8EBA00D30D20 /* LaunchScreen.storyboard */; };
+		C0D0717F1C2ED35800D30D20 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D0717E1C2ED35800D30D20 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C0D0711B1C2E8EBA00D30D20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0D0711E1C2E8EBA00D30D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0D071201C2E8EBA00D30D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0D0717D1C2ED35800D30D20 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C0D0717E1C2ED35800D30D20 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		C0D071761C2EBE1B00D30D20 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				C0D0717D1C2ED35800D30D20 /* HomeViewController.h */,
+				C0D0717E1C2ED35800D30D20 /* HomeViewController.m */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 				C0D071171C2E8EBA00D30D20 /* ViewController.m in Sources */,
 				C0D071141C2E8EBA00D30D20 /* AppDelegate.m in Sources */,
 				C0D071111C2E8EBA00D30D20 /* main.m in Sources */,
+				C0D0717F1C2ED35800D30D20 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
