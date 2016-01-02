@@ -13,7 +13,9 @@
 @end
 
 @implementation HomeViewController
-
+- (CGFloat)a {
+    return 5;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
